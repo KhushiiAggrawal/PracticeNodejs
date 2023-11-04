@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Profile page</title>
+</head>
+<body>
+    <h1><%- include('common/header') %></h1>
+    <h6><% data.forEach((item)=>{%>
+            <p> <%= item %></p>
+        <% })%>
+    </h6>
+</body>
+</html>
